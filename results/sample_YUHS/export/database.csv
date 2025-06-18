@@ -1,0 +1,2 @@
+database_id,database_name,description,vocabulary_version,min_obs_period_date,max_obs_period_date,study_package_version,is_meta_analysis
+YUHS,YUHS,YUHS,v5.0 09-SEP-22,2003-01-21,2022-03-24,0.0.1,0

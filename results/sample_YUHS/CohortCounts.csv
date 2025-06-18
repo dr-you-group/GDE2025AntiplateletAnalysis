@@ -1,0 +1,109 @@
+"cohortId","cohortName","cohortEntries","cohortSubjects"
+30234,"Neck sprain",2129,503
+30441,"Sialolithiasis",1603,271
+72418,"Scoliosis deformity of spine",15427,995
+72576,"Benign tumor of breast",30706,5994
+73300,"Radial styloid tenosynovitis",4289,360
+74189,"Sprain of cruciate ligament of knee",2299,181
+74855,"Genital herpes simplex",3223,316
+75576,"Irritable bowel syndrome",50774,4555
+77965,"Acquired trigger finger",7976,810
+80509,"Bone cyst",460,60
+81336,"Rectal prolapse",1476,185
+81878,"Benign paroxysmal positional vertigo",13135,2241
+133228,"Dental caries",142743,13626
+134453,"Bursitis",15142,993
+134619,"Toxic nodular goiter",498,42
+134765,"Cachexia",666,52
+135215,"Hashimoto thyroiditis",40656,2447
+138463,"Aphthous ulcer of mouth",4659,679
+139902,"Allergic urticaria",7793,556
+140168,"Psoriasis",33130,1281
+140362,"Hypoparathyroidism",10477,652
+141323,"Acute maxillary sinusitis",10211,597
+141933,"Alopecia areata",4404,316
+192606,"Paraplegia",12370,394
+194696,"Dysmenorrhea",3411,414
+194997,"Prostatitis",13252,1401
+195212,"Hypercortisolism",19681,842
+197036,"Vesicoureteric reflux",10704,404
+198075,"Condyloma acuminatum of the anogenital region",2356,163
+198803,"Benign prostatic hyperplasia",504239,25798
+199074,"Acute pancreatitis",23958,1815
+199861,"Perianal abscess",5091,395
+201792,"Nongonococcal urethritis",13,2
+253796,"Pneumothorax",20547,1626
+261326,"Viral pneumonia",5279,366
+261880,"Atelectasis",9539,1496
+316457,"Mallory-Weiss syndrome",6001,346
+318800,"Gastroesophageal reflux disease",850300,50093
+373478,"Presbyopia",15003,1586
+374366,"Sensorineural hearing loss",37707,3942
+374655,"Mastoiditis",279,24
+376132,"Ectropion",1917,108
+376707,"Acute conjunctivitis",8334,910
+377535,"Sleep walking disorder",89,15
+377910,"Deviated nasal septum",24959,3712
+378424,"Astigmatism",78658,10072
+380094,"Carpal tunnel syndrome",27096,1729
+380395,"Retinal dystrophy",3159,277
+380731,"Otitis externa",14980,1849
+380839,"Tuberous sclerosis syndrome",4415,89
+381444,"Contusion of eye",1916,217
+381581,"Chalazion",1362,192
+432590,"Delusional disorder",7626,403
+433440,"Dysthymia",8948,708
+433450,"Paranoid schizophrenia",4612,91
+433527,"Endometriosis (clinical)",18341,1685
+434626,"Borderline personality disorder",1404,44
+435093,"Closed fracture of femur",19086,1333
+435613,"Cellulitis",61480,4032
+436100,"Narcolepsy",1747,116
+436675,"Anorexia nervosa",784,32
+436676,"Posttraumatic stress disorder",3170,154
+437082,"Ankylosing spondylitis",23732,1307
+438407,"Bulimia nervosa",358,16
+439840,"Lymphangitis",210,14
+440129,"Hypertrophy of nasal turbinates",3536,443
+440424,"Aphasia",29571,745
+440814,"Torticollis",4649,164
+1792364,"[GDE2025_Antiplatelet] Secondary outcome - All cause mortality",18448,18448
+1792365,"[GDE2025_Antiplatelet] Secondary outcome - Cardiovascular mortality",5035,5035
+1792366,"[GDE2025_Antiplatelet] Secondary outcome - NACE",64366,41152
+1792367,"[GDE2025_Antiplatelet] Primary outcome - MACE",50786,36355
+1792368,"[GDE2025_Antiplatelet] Secondary outcome - Hemorrhagic event",23164,13423
+1792369,"[GDE2025_Antiplatelet] Secondary outcome - Ischemic event",24858,17327
+1792370,"[GDE2025_Antiplatelet] Secondary outcome - AMI",10320,8573
+1792371,"[GDE2025_Antiplatelet] Secondary Outcome - Stroke(both)",22769,13699
+1792372,"[GDE2025_Antiplatelet] Secondary outcome - Stroke(hemorrhagic)",8847,5388
+1792373,"[GDE2025_Antiplatelet] Secondary outcome - Stroke(ischemic)",14657,9226
+1792374,"[GDE2025_Antiplatelet] Secondary outcome - GI bleeding",14562,8567
+1792797,"[GDE2025_Antiplatelet] Ticagrelor cohort - Revised (2025.06.17)",916,916
+1793457,"[GDE2025_Antiplatelet] Prasugrel cohort - Revised (2025.06.17)",17,17
+4001458,"Fatigue fracture of vertebra",33994,2278
+4028970,"Tracheobronchitis",2922,421
+4047787,"Colles' fracture",4017,291
+4068482,"Prolapsed lumbar intervertebral disc",115537,9317
+4079750,"Osteoarthritis of knee",117236,8200
+4092565,"Uterine prolapse",1419,220
+4108467,"Burn of skin",900,203
+4114197,"Tumor of hypothalamus",55819,1679
+4131595,"Fracture of radius",15185,1175
+4135082,"Dislocation of distal radioulnar joint",44,7
+4142905,"Fracture of rib",11027,1289
+4150372,"Acute otitis media",9179,1402
+4153877,"Post-traumatic wound infection",334,41
+4164337,"Polyp of large intestine",80117,8445
+4171915,"Orchitis",439,43
+4172458,"Candidiasis of skin",326,30
+4207307,"Infective meningitis",6166,265
+4215978,"Onychomycosis",45581,3437
+4218106,"Alcoholism",20001,1012
+4223947,"Viral hepatitis, type A",1210,150
+4239381,"Psychoactive substance abuse",3620,216
+4280571,"Acute pyelonephritis",36180,2883
+4288544,"Inguinal hernia",37835,2839
+4299544,"Acanthosis nigricans",292,40
+4304008,"Memory impairment",6735,881
+4339088,"Testicular mass",2184,100
+40443308,"Polycystic ovary syndrome",5545,546

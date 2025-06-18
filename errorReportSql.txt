@@ -1,0 +1,34 @@
+DBMS:
+sql server
+
+Error:
+java.lang.ClassCastException: class [I cannot be cast to class [Ljava.lang.String; ([I and [Ljava.lang.String; are in module java.base of loader 'bootstrap')
+
+SQL:
+SELECT MIN(observation_period_start_date) min_date, MAX(observation_period_end_date) max_date FROM CDM_v531_YUHS.CDM.observation_period;
+
+R version:
+R version 4.1.3 (2022-03-10)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+Other attached packages:
+- CohortMethod (4.2.2)
+- FeatureExtraction (3.2.0)
+- Andromeda (0.6.0)
+- dplyr (1.0.7)
+- Cyclops (3.1.2)
+- DT (0.21)
+- shiny (1.10.0)
+- GDE2025AntiplateletAnalysis (0.0.1)
+- DatabaseConnector (5.0.2)

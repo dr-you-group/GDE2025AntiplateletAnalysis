@@ -1,0 +1,1875 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40241186,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1116632",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "ticagrelor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40252640,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AC24",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ticagrelor; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] Ticagrelor",
+      "id": 22
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 44789455,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "203741000000101",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Insertion of drug-eluting coronary artery stent",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4337738,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "232726007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous endarterectomy of coronary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4264286,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "397194000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous rotational coronary endarterectomy",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4006788,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11101003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous transluminal coronary angioplasty",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4139198,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "426485003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Percutaneous transluminal thrombolysis of artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4283892,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36969009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Placement of stent in coronary artery",
+            "DOMAIN_ID": "Procedure",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Procedure",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] PCI",
+      "id": 23
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 315296,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "4557003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Preinfarction syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4215140,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "394659003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Acute coronary syndrome",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4329847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22298006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 314666,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1755008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Old myocardial infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] ACS",
+      "id": 24
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40163718,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "613391",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "prasugrel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601004,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AC22",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "prasugrel; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] Prasugrel",
+      "id": 25
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 761790,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16002151000119107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Nonpyogenic cerebral venous thrombosis with stroke",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43531605,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9901000119100",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Occlusion of cerebral artery with stroke",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 762344,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "329621000119105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to thrombus of right vertebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37209562,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16661971000119104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to stenosis of bilateral carotid arteries",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4159140,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "371040005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Thrombotic stroke",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37312017,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "788880006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral ischemic stroke due to dissection of artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37312015,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "788882003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral ischemic stroke due to global hypoperfusion with watershed infarct",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4153352,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "371041009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Embolic stroke",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37312014,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "788883008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral ischemic stroke due to hypercoagulable state",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4310996,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "422504002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Ischemic stroke",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37395576,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16026991000119107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to left carotid artery stenosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37395574,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16023911000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to right carotid artery occlusion",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37395575,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16026951000119102",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to right carotid artery stenosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535147,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16024031000119100",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of right pontine artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535146,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16023991000119104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of left pontine artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535149,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16024271000119107",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of right cerebellar artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535148,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16024151000119105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of left cerebellar artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42539262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16024111000119109",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of left carotid artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4045734,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "230691006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "CVA - cerebrovascular accident due to cerebral artery occlusion",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535459,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "292671000119104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to stenosis of left vertebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535458,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "292661000119105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to stenosis of right vertebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535461,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "292691000119103",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of left vertebral artery",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42535460,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "292681000119101",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to right vertebral artery occlusion",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37309657,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16661931000119102",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to stenosis of bilateral vertebral arteries",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 619802,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "898941951000119108",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of bilateral vertebral arteries",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 37309665,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "16644681000119102",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of bilateral pontine arteries",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 609301,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "346674811000119104",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebrovascular accident due to occlusion of bilateral cerebellar arteries",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 441874,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "71444005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral thrombosis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443454,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "432504007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral infarction",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 375557,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75543006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral embolism",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 372924,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "20059004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral artery occlusion",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] Ischemic stroke",
+      "id": 26
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35609033,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1078001000000105",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Haemorrhagic stroke",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 376713,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "274100004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cerebral hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 432923,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21454007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Subarachnoid hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1386000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Intracranial hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] Hemorrhagic stroke",
+      "id": 27
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 192671,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "74474003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Gastrointestinal hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443530,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "405729008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hematochezia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4103703,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2901004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Melena",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 26727,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8765009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hematemesis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Disorder",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4242106,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "59614000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Occult blood detected in feces",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] GI bleeding",
+      "id": 28
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1322184,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "32968",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "clopidogrel",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600989,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AC04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "clopidogrel; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] Clopidogrel",
+      "id": 29
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 46275677,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1656052",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cangrelor",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45893522,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AC25",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "cangrelor; parenteral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] Cangrelor",
+      "id": 30
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19024063,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "154",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "acenocoumarol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600967,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AA07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "acenocoumarol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43013024,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1364430",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "apixaban",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534762,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AF02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "apixaban; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592988,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1927851",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "betrixaban",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 715776,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AF04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "betrixaban; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40228152,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1037042",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dabigatran etexilate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21601026,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AE07",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "dabigatran etexilate; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600963,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AA01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "dicoumarol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1325124,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1598",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dicumarol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 45892847,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1599538",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "edoxaban",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1123891,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AF03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "edoxaban; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19113013,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "50097",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluindione",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40252605,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AA12",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "fluindione; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19033934,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8130",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "phenindione",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600964,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AA02",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "phenindione; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19035344,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8150",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "phenprocoumon",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600966,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AA04",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "phenprocoumon; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40241331,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1114195",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rivaroxaban",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43534761,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AF01",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "rivaroxaban; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19018364,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "163426",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "tioclomarol",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600971,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AA11",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "tioclomarol; oral",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1310149,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "11289",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "warfarin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600965,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "B01AA03",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "warfarin; systemic",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[GDE2025_Antiplatelet] VKA or DOAC",
+      "id": 31
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 22,
+    "DaysSupplyOverride": null,
+    "GapDays": 14,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 25,
+    "DateAdjustment": null,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "AdditionalCriteria": {
+    "CriteriaList": [
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 1,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"DrugExposure": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "DrugSourceConcept": null,
+          "CodesetId": 22,
+          "DateAdjustment": null,
+          "DrugTypeExclude": false,
+          "Quantity": null,
+          "DrugType": null,
+          "ProviderSpecialty": null,
+          "EffectiveDrugDose": null,
+          "Gender": null,
+          "DaysSupply": null,
+          "DoseUnit": null,
+          "VisitType": null,
+          "Refills": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "RouteConcept": null,
+          "StopReason": null,
+          "LotNumber": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      },
+      {
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 7,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"ConditionOccurrence": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "ConditionTypeExclude": null,
+          "CodesetId": 24,
+          "DateAdjustment": null,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "VisitType": null,
+          "First": null,
+          "OccurrenceStartDate": null,
+          "ConditionType": null,
+          "ConditionSourceConcept": null,
+          "ConditionStatus": null,
+          "StopReason": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      }
+    ],
+    "Type": "ALL",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "All"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 180,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 25,
+            "DateAdjustment": null,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Exclude Prasugrel",
+      "description": "\n"
+    },
+    {
+      "expression": {
+        "CriteriaList": [
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": null,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "ConditionTypeExclude": null,
+              "CodesetId": 26,
+              "DateAdjustment": null,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 1,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          },
+          {
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": null,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"ConditionOccurrence": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "ConditionTypeExclude": null,
+              "CodesetId": 27,
+              "DateAdjustment": null,
+              "ProviderSpecialty": null,
+              "Gender": null,
+              "VisitType": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "ConditionType": null,
+              "ConditionSourceConcept": null,
+              "ConditionStatus": null,
+              "StopReason": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 1,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 0
+            }
+          }
+        ],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Exclude Hx of Stroke",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": null,
+            "CodesetId": 28,
+            "DateAdjustment": null,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Exclude Hx of GI Bleeding",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 180,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 31,
+            "DateAdjustment": null,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Exclude VKA & DOAC",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ProcedureOccurrence": {
+      "ProcedureType": null,
+      "CorrelatedCriteria": null,
+      "CodesetId": 23,
+      "ProcedureSourceConcept": null,
+      "DateAdjustment": null,
+      "Quantity": null,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "ProcedureTypeExclude": false,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "Modifier": null,
+      "Age": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": 18
+      }
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

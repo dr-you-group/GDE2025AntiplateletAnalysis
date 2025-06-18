@@ -1,0 +1,14 @@
+webApiCohortId,cohortId,cohortName
+1792797,1792797,[GDE2025_Antiplatelet] Ticagrelor cohort - Revised (2025.06.17)
+1793457,1793457,[GDE2025_Antiplatelet] Prasugrel cohort - Revised (2025.06.17)
+1792374,1792374,[GDE2025_Antiplatelet] Secondary outcome - GI bleeding
+1792370,1792370,[GDE2025_Antiplatelet] Secondary outcome - AMI
+1792367,1792367,[GDE2025_Antiplatelet] Primary outcome - MACE
+1792366,1792366,[GDE2025_Antiplatelet] Secondary outcome - NACE
+1792364,1792364,[GDE2025_Antiplatelet] Secondary outcome - All cause mortality
+1792369,1792369,[GDE2025_Antiplatelet] Secondary outcome - Ischemic event
+1792368,1792368,[GDE2025_Antiplatelet] Secondary outcome - Hemorrhagic event
+1792372,1792372,[GDE2025_Antiplatelet] Secondary outcome - Stroke(hemorrhagic)
+1792373,1792373,[GDE2025_Antiplatelet] Secondary outcome - Stroke(ischemic)
+1792371,1792371,[GDE2025_Antiplatelet] Secondary Outcome - Stroke(both)
+1792365,1792365,[GDE2025_Antiplatelet] Secondary outcome - Cardiovascular mortality

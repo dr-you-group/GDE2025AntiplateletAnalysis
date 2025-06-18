@@ -1,0 +1,55 @@
+Thread: Main
+Message:  Error executing SQL:
+java.lang.ClassCastException: class [I cannot be cast to class [Ljava.lang.String; ([I and [Ljava.lang.String; are in module java.base of loader 'bootstrap')
+An error report has been created at  C:/Users/paul9/Rprojects/GDE2025AntiplateletAnalysis/errorReportSql.txt
+Level:  FATAL
+Time:  2025-06-18 12:01:14
+
+Stack trace:
+15: (function (condition) 
+{
+    if (is(condition, "error")) {
+        log("FATAL", conditionMessage(cond
+14: cnd-abort.R#861: signalCondition(cnd)
+13: cnd-abort.R#390: signal_abort(cnd, .file)
+12: abort(paste("Error executing SQL:", message, paste("An error report has been created at ", fileNam
+11: .createErrorReport(connection@dbms, err$message, sql, errorReportFile)
+10: value[[3]](cond)
+9: tryCatchOne(expr, names, parentenv, handlers[[1]])
+8: tryCatchList(expr, classes, parentenv, handlers)
+7: tryCatch({
+    result <- lowLevelQuerySql(connection = connection, query = sqlStatements[1], intege
+6: querySql(connection = connection, sql = sql, errorReportFile = errorReportFile, snakeCaseToCamelCa
+5: Export.R#1124: DatabaseConnector::renderTranslateQuerySql(connection = connection, sql = sql, cdm_
+4: Export.R#231: getObservationPeriodDateRange(connection = connection, cdmDatabaseSchema = cdmDataba
+3: Export.R#39: exportMetadata(outputFolder = outputFolder, exportFolder = exportFolder, databaseId =
+2: Main.R#176: exportResults(outputFolder = outputFolder, databaseId = databaseId, databaseName = dat
+1: execute(connectionDetails = connectionDetails, cdmDatabaseSchema = cdmDatabaseSchema, cohortDataba
+
+R version:
+R version 4.1.3 (2022-03-10)
+
+Platform:
+x86_64-w64-mingw32
+
+Attached base packages:
+- stats
+- graphics
+- grDevices
+- utils
+- datasets
+- methods
+- base
+
+Other attached packages:
+- CohortMethod (4.2.2)
+- FeatureExtraction (3.2.0)
+- Andromeda (0.6.0)
+- dplyr (1.0.7)
+- Cyclops (3.1.2)
+- DT (0.21)
+- shiny (1.10.0)
+- GDE2025AntiplateletAnalysis (0.0.1)
+- DatabaseConnector (5.0.2)
+
+
