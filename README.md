@@ -29,9 +29,8 @@ How to run
 In this guide, we will assume that you have
 downloaded the .ZIP archive to **`D:/git/ohdsi-studies/<YourNetworkStudyName>`.**
 
-3. [Use RStudio to open the project file](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects#:~:text=There%20are%20several%20ways%20to,Rproj). `<YourNetworkStudyName>.Rproj` which is found in 
-the root directory of `D:/git/ohdsi-studies/<YourNetworkStudyName>` (or wherever
-you opted to download the study package). 
+3. [Use RStudio to open the project file](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects#:~:text=There%20are%20several%20ways%20to,Rproj). `GDE2025AntiplateletAnalysis.Rproj` which is found in 
+the root directory of wherever you opted to download the study package. 
 
 The first time you run this study, you will need to restore the execution
 environment using [renv](https://rstudio.github.io/renv/). To do this,
