@@ -3768,7 +3768,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 1,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4052,7 +4052,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 2,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4336,7 +4336,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 3,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4620,7 +4620,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 4,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4904,7 +4904,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 5,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -5188,7 +5188,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 6,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -5472,7 +5472,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 7,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -5756,7 +5756,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 8,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
