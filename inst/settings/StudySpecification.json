@@ -3768,7 +3768,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 1,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -3821,9 +3821,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -3832,7 +3832,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -3853,7 +3853,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -4052,7 +4052,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 2,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4105,9 +4105,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -4116,7 +4116,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -4137,7 +4137,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -4336,7 +4336,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 3,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4389,9 +4389,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -4400,7 +4400,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -4421,7 +4421,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -4620,7 +4620,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 4,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4673,9 +4673,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -4684,7 +4684,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -4705,7 +4705,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -4904,7 +4904,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 5,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -4957,9 +4957,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -4968,7 +4968,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -4989,7 +4989,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -5188,7 +5188,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 6,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -5241,9 +5241,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -5252,7 +5252,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -5273,7 +5273,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -5472,7 +5472,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 7,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -5525,9 +5525,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -5536,7 +5536,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -5557,7 +5557,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
@@ -5756,7 +5756,7 @@
           "matchOnPsAndCovariates": false,
           "analysisId": 8,
           "createPsArgs": {
-            "stopOnError": true,
+            "stopOnError": false,
             "excludeCovariateIds": [],
             "prior": {
               "variance": [1],
@@ -5809,9 +5809,9 @@
             "excludeCovariateIds": [],
             "useCovariates": false,
             "prior": {
-              "variance": [1],
-              "useCrossValidation": true,
-              "priorType": "laplace",
+              "variance": [0.25],
+              "useCrossValidation": false,
+              "priorType": "normal",
               "exclude": [0],
               "neighborhood": null,
               "attr_class": "cyclopsPrior",
@@ -5820,7 +5820,7 @@
             },
             "inversePtWeighting": false,
             "control": {
-              "maxIterations": 1000,
+              "maxIterations": 10000,
               "autoSearch": true,
               "seed": 1,
               "initialBound": 2,
@@ -5841,7 +5841,7 @@
               "convergenceType": "gradient",
               "tuneSwindle": 10,
               "maxBoundCount": 5,
-              "tolerance": 2E-7,
+              "tolerance": 1E-6,
               "algorithm": "ccd"
             },
             "modelType": "cox",
