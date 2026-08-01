@@ -1,4 +1,4 @@
-GDE2025AntiplateletAnalysis
+Ticagrelor vs. Prasugrel
 ==============================
 
 Information
