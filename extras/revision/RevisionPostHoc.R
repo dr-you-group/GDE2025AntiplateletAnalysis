@@ -1,8 +1,7 @@
-# JACC Asia revision: post hoc analyses on saved CohortMethod files ------------------
-# TP-DEC-0015. Works with CohortMethod 4.2.2 (ATLAS package, HIRA) and 5.4.0 (Strategus).
-# Uses the saved CohortMethodData and PS-stratified populations; no new cohorts.
-# The only database access is one read-only query of P2Y12 drug records (switching).
-# All exported counts below minCellCount are replaced by -minCellCount.
+# JACC Asia revision: functions for the post hoc analyses. Sourced by the CodeToRun
+# scripts; no need to edit. Works with CohortMethod 4.2.2 (HIRA) and 5.4.0 (Strategus).
+# Reads the saved CohortMethod files; the only database access is one read-only query
+# of P2Y12 drug records. Exported counts below minCellCount are shown as -minCellCount.
 library(dplyr)
 
 # Definitions -------------------------------------------------------------------------
@@ -56,7 +55,7 @@ revisionCovariates <- data.frame(
   )
 )
 
-# Subgroups: each level is a set of rowIds; levels of one variable are compared
+# Subgroup levels: positive ID = has the derived covariate, negative ID = does not
 subgroupVariables <- list(
   sex = c(female = 9990011, male = -9990011),
   age = c(age75plus = 9990012, ageUnder75 = -9990012),
@@ -593,16 +592,12 @@ switchingProfile <- function(population, records, targetId, comparatorId, target
 }
 
 # Main ------------------------------------------------------------------------------
-# primaryAnalysisId / onTreatmentAnalysisId: analysis IDs of the 1-year ITT and on-treatment
-#   PS-stratification analyses (ATLAS package: 8 and 2; Strategus: 8 and 5).
-# createStudyPopArgs: named list of the createStudyPopArgs of those two analyses.
-# stratifyByPsArgs: stratifyByPsArgs of the primary analysis. When given, subgroup HRs are
-#   empirically calibrated with negative controls rebuilt within each subgroup level (own
-#   controls if >= minNegativeControls have estimates, else whole-population controls).
-# subgroupOutcomeIds: outcomes for the subgroup analyses (MACE and its AMI variants).
-# populations: optional named list (outcome ID -> PS-stratified population) to use instead
-#   of saved files, e.g. for outcomes refitted outside CohortMethod (HIRA).
-# connectionDetails NULL skips the switching profile (no database access at all).
+# primaryAnalysisId / onTreatmentAnalysisId: 1-year ITT and on-treatment PS-stratification
+#   analyses (HIRA: 8 and 2; Strategus: 8 and 5). createStudyPopArgs: theirs, named by ID.
+# stratifyByPsArgs: given -> subgroup HRs calibrated with negative controls (the level's own
+#   if >= minNegativeControls, else whole-population controls).
+# populations: optional outcome ID -> population, for outcomes not in the saved files (HIRA).
+# connectionDetails = NULL skips the switching profile (no database access).
 runRevisionPostHoc <- function(cmFolder,
                                exportFolder,
                                databaseId,

@@ -1,17 +1,12 @@
-# JACC Asia revision: HIRA add-on analyses (TP-DEC-0015) ------------------------------
-# Re-uses the saved CohortMethod output (cmOutput) of the original run. No new cohorts,
-# no PS refit, nothing written to the database: three read-only SELECT queries.
-#  1. AMI condition records of the study patients, flagged for the outcome rules
-#  2. Existing outcome cohort entries (death, AMI, strokes, GI bleeding, composites)
-#  3. Abciximab drug records around index (aggregate counts)
-# New outcomes (same definitions as the Strategus revision package):
+# JACC Asia revision: functions for the HIRA add-on. Sourced by CodeToRunRevisionHIRA.R;
+# no need to edit. Reuses the saved cmOutput (no new cohorts, no PS refit) with three
+# read-only queries: AMI records, existing outcome cohort entries, abciximab counts.
+# New outcomes (as in the Strategus package) for AMI, MACE, NACE, ischemic composite:
 #   V1: AMI recorded on the start date of an inpatient/ER visit
-#   V2: inpatient/ER AMI with no PCI in the 1-6 days before it (AMI from day 7)
-# applied to AMI, MACE, NACE and the ischemic composite, in all 8 analyses. Composites
-# are rebuilt as Circe builds them: union of component events, collapsed into eras
-# (pad 0); the first era start in the time at risk is the event.
-# Requires RevisionPostHoc.R (helpers) and the package's R/Export.R (calibrate,
-# prepareKaplanMeier, enforceMinCellValue), sourced by CodeToRunRevisionHIRA.R.
+#   V2: inpatient/ER AMI with no PCI 1-6 days before it (AMI from day 7)
+# Composites are rebuilt as Circe does (component events collapsed into eras; first era
+# start in the time at risk). revision_hira_validation.csv checks that the original
+# outcomes rebuilt this way reproduce the saved estimates.
 
 newOutcomes <- data.frame(
   outcomeId = c(17923701, 17923702, 17923671, 17923672, 17923661, 17923662, 17923691, 17923692),

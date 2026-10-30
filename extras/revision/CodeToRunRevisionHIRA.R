@@ -1,19 +1,17 @@
-# JACC Asia revision: HIRA add-on (TP-DEC-0015) -------------------------------------
-# Run once, from the GDE2025AntiplateletAnalysis project folder, in the SAME R/renv
-# environment and with the SAME outputFolder as the original study run.
-#
-# - Uses the saved CohortMethod files in <outputFolder>/cmOutput (not modified).
-# - Database access is READ-ONLY: four SELECT queries (AMI records, existing outcome
-#   cohort entries, abciximab record counts, P2Y12 records). No tables are created and
-#   nothing is written to the database. The original cohort table must still exist.
-# - Results are aggregate CSV files in <outputFolder>/revisionHIRA; counts below
-#   minCellCount are censored. Please send that whole folder.
+# JACC Asia revision: HIRA add-on analyses ---------------------------------------------
+# 1. Open the GDE2025AntiplateletAnalysis project folder in the R/renv environment of the
+#    original run.
+# 2. Fill in the settings below with the values of the original run.
+# 3. Source this file. Output: <outputFolder>/revisionHIRA/*.csv (aggregate; counts below
+#    5 shown as -5). Please send that folder.
+# Needs: <outputFolder>/cmOutput (read only) and the original cohort table in the database.
+# Database: four read-only SELECT queries; no tables created, nothing written.
 library(dplyr)
-source("R/Export.R") # calibrate(), prepareKaplanMeier(), enforceMinCellValue() of the original run
+source("R/Export.R")
 source("extras/revision/RevisionPostHoc.R")
 source("extras/revision/HiraRevision.R")
 
-# Settings: identical to the original run ------------------------------------------------
+# Settings: same as the original run ------------------------------------------------------
 connectionDetails <- DatabaseConnector::createConnectionDetails(
   dbms = "",
   server = "",
@@ -30,11 +28,12 @@ databaseId <- "HIRA"
 minCellCount <- 5
 options(sqlRenderTempEmulationSchema = NULL)
 
+# No changes needed below -----------------------------------------------------------------
 exportFolder <- file.path(outputFolder, "revisionHIRA")
 cmAnalysisList <- CohortMethod::loadCmAnalysisList("inst/settings/cmAnalysisList.json")
 cmAnalysis <- function(analysisId) Filter(function(a) a$analysisId == analysisId, cmAnalysisList)[[1]]
 
-# 1. New AMI-based outcomes in all 8 analyses, calibrated; validation; abciximab ---------
+# 1. AMI-variant outcomes in all 8 analyses, validation, abciximab check
 hira <- runHiraRevision(
   outputFolder = outputFolder,
   exportFolder = exportFolder,
@@ -47,7 +46,7 @@ hira <- runHiraRevision(
   minCellCount = minCellCount
 )
 
-# 2. Subgroups, severity/ACS balance, zero time at risk, study period, switching ---------
+# 2. Subgroups, baseline severity, zero time at risk, study period, switching
 runRevisionPostHoc(
   cmFolder = file.path(outputFolder, "cmOutput"),
   exportFolder = exportFolder,
