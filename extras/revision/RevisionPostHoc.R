@@ -1,7 +1,4 @@
-# JACC Asia revision: functions for the post hoc analyses. Sourced by the CodeToRun
-# scripts; no need to edit. Works with CohortMethod 4.2.2 (HIRA) and 5.4.0 (Strategus).
-# Reads the saved CohortMethod files; the only database access is one read-only query
-# of P2Y12 drug records. Exported counts below minCellCount are shown as -minCellCount.
+# JACC Asia revision: functions for the post hoc analyses (sourced automatically; do not edit).
 library(dplyr)
 
 # Definitions -------------------------------------------------------------------------
@@ -597,7 +594,8 @@ switchingProfile <- function(population, records, targetId, comparatorId, target
 # stratifyByPsArgs: given -> subgroup HRs calibrated with negative controls (the level's own
 #   if >= minNegativeControls, else whole-population controls).
 # populations: optional outcome ID -> population, for outcomes not in the saved files (HIRA).
-# connectionDetails = NULL skips the switching profile (no database access).
+# p2y12Records: records already read from the cohort DB (HIRA); otherwise queried with connectionDetails.
+#   Neither given -> switching profile skipped (no database access).
 runRevisionPostHoc <- function(cmFolder,
                                exportFolder,
                                databaseId,
@@ -611,6 +609,7 @@ runRevisionPostHoc <- function(cmFolder,
                                subgroupOutcomeIds = c(1792367, 17923671, 17923672),
                                populations = list(),
                                deathOutcomeId = 1792364,
+                               p2y12Records = NULL,
                                connectionDetails = NULL,
                                cdmDatabaseSchema = NULL,
                                cohortDatabaseSchema = NULL,
@@ -687,11 +686,14 @@ runRevisionPostHoc <- function(cmFolder,
   write(period$byYear, "study_period_by_year")
   write(period$range, "study_period_range")
 
-  if (!is.null(connectionDetails)) {
-    message("Switching and discontinuation (read-only query of P2Y12 records)")
-    records <- getP2y12Records(connectionDetails, cdmDatabaseSchema, cohortDatabaseSchema, cohortTable,
-                               targetId, comparatorId)
-    profile <- switchingProfile(population, records, targetId, comparatorId,
+  if (is.null(p2y12Records) && !is.null(connectionDetails)) {
+    message("Read-only query of P2Y12 records")
+    p2y12Records <- getP2y12Records(connectionDetails, cdmDatabaseSchema, cohortDatabaseSchema, cohortTable,
+                                    targetId, comparatorId)
+  }
+  if (!is.null(p2y12Records)) {
+    message("Switching and discontinuation")
+    profile <- switchingProfile(population, p2y12Records, targetId, comparatorId,
                                 targetIngredient = p2y12Ingredients[["ticagrelor"]],
                                 comparatorIngredient = p2y12Ingredients[["prasugrel"]],
                                 minCellCount = minCellCount)
